@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2024-02-28T06:42:50.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4yqL85eFIi5rhYitDjjh" version="23.1.7" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="913" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-1" value="Sistem Akademik Sekolah" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="357.5" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-3" value="Siswa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-4" value="Guru" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-5" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5Mrz3DLmiPpHccNNIVEe-1" target="5Mrz3DLmiPpHccNNIVEe-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="460" as="sourcePoint" />
+            <mxPoint x="430" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-9" value="Get Jadwal Pelajaran" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Mrz3DLmiPpHccNNIVEe-6">
+          <mxGeometry x="-0.0114" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5Mrz3DLmiPpHccNNIVEe-1" target="5Mrz3DLmiPpHccNNIVEe-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="460" as="sourcePoint" />
+            <mxPoint x="430" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-10" value="Get Jadwal Pelajaran" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Mrz3DLmiPpHccNNIVEe-7">
+          <mxGeometry y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.015;entryY=0.361;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="5Mrz3DLmiPpHccNNIVEe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="417" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-12" value="Set Absen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Mrz3DLmiPpHccNNIVEe-11">
+          <mxGeometry x="-0.0186" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.011;exitY=0.14;exitDx=0;exitDy=0;entryX=0.997;entryY=0.386;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="5Mrz3DLmiPpHccNNIVEe-4" target="5Mrz3DLmiPpHccNNIVEe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-14" value="Set Absen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Mrz3DLmiPpHccNNIVEe-13">
+          <mxGeometry x="-0.4035" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.859;exitDx=0;exitDy=0;entryX=0.981;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="5Mrz3DLmiPpHccNNIVEe-4" target="5Mrz3DLmiPpHccNNIVEe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-16" value="Set Nilai" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Mrz3DLmiPpHccNNIVEe-15">
+          <mxGeometry x="0.0573" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5Mrz3DLmiPpHccNNIVEe-5" target="5Mrz3DLmiPpHccNNIVEe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-18" value="set notification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Mrz3DLmiPpHccNNIVEe-17">
+          <mxGeometry x="-0.2818" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.013;exitY=0.905;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.656;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5Mrz3DLmiPpHccNNIVEe-3" target="5Mrz3DLmiPpHccNNIVEe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="332" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Mrz3DLmiPpHccNNIVEe-20" value="Set Tugas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Mrz3DLmiPpHccNNIVEe-19">
+          <mxGeometry x="0.192" relative="1" as="geometry">
+            <mxPoint x="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
